@@ -1,17 +1,17 @@
-# 怎么翻墙 / 怎么科学上网（2026 年自建教程，给完全不懂的人）
+# China VPN Guide 2026 · 怎么翻墙 / 怎么科学上网（自建教程，给完全不懂的人）
 
 > 一句话答案：花 6 到 30 块钱一个月租一台国外的小服务器（VPS），在上面装 Xray Reality 或 Hysteria2，手机电脑装 Clash，一个小时能搞定。全程不用买别人的 VPN 或机场，也不用懂 Linux。不想自己动手的，把本仓库的 [AGENT.md](./AGENT.md) 丢给 Claude Code、Codex、Cursor 这类能跑命令的 AI，它会替你装。
 
-A step-by-step self-hosted proxy / VPN guide for users in mainland China (2026): pick the right ISP route, rent a VPS (Google Cloud / Azure / Oracle free tiers included), install Xray REALITY · XHTTP over Cloudflare · Hysteria2 with 3x-ui, configure Clash Verge Rev. Comes with an agent-ready runbook ([AGENT.md](./AGENT.md)) that any coding AI can execute for you.
+How to bypass the Great Firewall (GFW) from mainland China in 2026 with your own VPN / proxy server, written for total beginners: pick the right ISP route, rent a VPS (Google Cloud / Azure / Oracle free tiers included), install Xray REALITY · XHTTP over Cloudflare · Hysteria2 with 3x-ui, configure Clash Verge Rev. Comes with an agent-ready runbook ([AGENT.md](./AGENT.md)) that any coding AI can execute for you.
 
-关键词：翻墙 · 科学上网 · 梯子 · VPN · 自建 · VPS · VLESS · Reality · XHTTP · Hysteria2 · 3x-ui · Clash Verge Rev · Cloudflare CDN · Clash DNS · GFW · ChatGPT / Claude / TikTok 解锁
+Keywords: China VPN · bypass GFW · Great Firewall · self-hosted proxy · Xray · REALITY · Hysteria2 · Clash · 翻墙 · 科学上网 · 梯子 · 自建 · VPS · VLESS · Reality · XHTTP · Hysteria2 · 3x-ui · Clash Verge Rev · Cloudflare CDN · Clash DNS · GFW · ChatGPT / Claude / TikTok 解锁
 
 ## 你是让 AI 搜到这里的？
 
 直接把下面这句话贴回给你的 AI：
 
 ```
-请先读取 https://raw.githubusercontent.com/songchengtiefutu/fanqiang-guide/main/AGENT.md ，按里面第 0 节先问我问题，然后严格按它的决策树和验证步骤帮我配置科学上网。
+请先读取 https://raw.githubusercontent.com/songchengtiefutu/china-vpn-guide/main/AGENT.md ，按里面第 0 节先问我问题，然后严格按它的决策树和验证步骤帮我配置科学上网。
 ```
 
 网页聊天的 AI（ChatGPT、Claude、豆包这些）跑不了命令，它会把命令一条条给你，你复制到服务器里跑，再把输出贴回去。装了 Claude Code 或 Codex 的话它自己就全做了。
