@@ -74,4 +74,4 @@ Keywords: China VPN · bypass GFW · Great Firewall · self-hosted proxy · Xray
 
 ## License
 
-CC BY-NC-SA 4.0：可以转载、改写，注明出处，不得商用。
+MIT。随便转载、改写、商用，留个出处就行。
